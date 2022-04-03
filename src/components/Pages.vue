@@ -8,22 +8,24 @@
 </script>
 
 <template>
-  <section id="home">
-    <Home />
-  </section>
-  <section id="about">
-    <About />
-  </section>
-  <section id="career">
-    <Career />
-  </section>
-  <section id="skills">
-    <Skills />
-  </section>
-  <section id="projects">
-    <Projects />
-  </section>
-  <section id="contact">
-    <Contact />
-  </section>
+  <div class="w-full h-screen overflow-y-scroll bg-cream scroll-smooth">
+    <section class="w-full h-screen" id="home">
+      <Home />
+    </section>
+    <section class="w-full h-screen" id="about">
+      <About />
+    </section>
+    <section class="w-full h-screen" id="career">
+      <Career />
+    </section>
+    <section class="w-full h-screen" id="skills">
+      <Skills />
+    </section>
+    <section class="w-full h-screen" id="projects">
+      <Projects />
+    </section>
+    <section class="w-full h-screen" id="contact">
+      <Contact />
+    </section>
+  </div>
 </template>

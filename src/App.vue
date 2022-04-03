@@ -14,7 +14,7 @@
 
   <main class="w-full h-screen flex">
     <Menu class="bg-lavender w-20"/>
-    <Pages class="bg-cream w-auto"/>
+    <Pages />
   </main>
 
   <footer>
