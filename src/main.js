@@ -1,5 +1,8 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 import './index.css'
+import Popper from "vue3-popper";
 
-createApp(App).mount('#app')
+const app = createApp(App);
+app.component("Popper", Popper);
+app.mount('#app');
