@@ -8,7 +8,7 @@
 </script>
 
 <template>
-  <div class="w-full h-screen overflow-y-hidden bg-cream scroll-smooth">
+  <div class="w-full h-screen overflow-y-hidden scroll-smooth">
     <section class="w-full h-screen" id="home">
       <Home />
     </section>

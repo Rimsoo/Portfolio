@@ -8,6 +8,7 @@ module.exports = {
             backgroundImage: {
                 'axe': "url('src/assets/axe.jpg')",
                 'tour': "url('src/assets/tour.jpg')",
+                'moi': "url('src/assets/moi.jpg')",
             },
             colors: {
                 "cream": "#f0f7ee",
