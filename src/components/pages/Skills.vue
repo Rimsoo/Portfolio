@@ -4,8 +4,8 @@
         <section class="col-span-5 p-10 overflow-y-scroll">
             <h2 class="font-black text-3xl mb-5">COMPÉTENCES</h2><hr class="mb-5">
             <h3 class="font-black text-2xl mb-5">Compétences Techniques</h3>
-            <div class="grid grid-cols-3 ">
-                <div>
+            <div class="grid grid-cols-3 place-content-center">
+                <a href="#home"><div class="flex flex-col items-center">
                     <svg id="Layer_2" style="enable-background:new 0 0 1000 1000;" version="1.1" class="h-20 w-20" viewBox="0 0 1000 1000" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                         <path d="M775.34,847.27h-550.4c19.45-29.13,50.22-48.76,84.83-54.12c54.9-8.48,133.39-24.9,140.16-50.05  c1.91-7.11,1.49-14.37-0.5-21.49h101.43c-1.99,7.12-2.43,14.38-0.51,21.49c6.77,25.15,85.26,41.57,140.17,50.05  C725.13,798.51,755.89,818.14,775.34,847.27z" style="fill:#231F20;"/>
                         <path d="M232.832,181.732v72.8h534.624v-72.8c0-16.5-13.5-30-30-30H262.832  C246.332,151.732,232.832,165.232,232.832,181.732z M674.936,203.132c0-6.875,5.625-12.5,12.5-12.5h28c6.875,0,12.5,5.625,12.5,12.5  s-5.625,12.5-12.5,12.5h-28C680.561,215.632,674.936,210.007,674.936,203.132z M591.436,203.132c0-6.875,5.625-12.5,12.5-12.5h28  c6.875,0,12.5,5.625,12.5,12.5s-5.625,12.5-12.5,12.5h-28C597.061,215.632,591.436,210.007,591.436,203.132z M507.936,203.132  c0-6.875,5.625-12.5,12.5-12.5h28c6.875,0,12.5,5.625,12.5,12.5s-5.625,12.5-12.5,12.5h-28  C513.561,215.632,507.936,210.007,507.936,203.132z" style="fill:#231F20;"/>
@@ -13,7 +13,7 @@
                         <path d="M427.534,474.636c-3.167-3.165-6.876-5.674-11.133-7.531c-4.257-1.854-8.734-2.783-13.425-2.783   c-4.912,0-9.47,0.957-13.671,2.865c-4.203,1.911-7.833,4.477-10.888,7.695c-3.057,3.221-5.459,6.986-7.204,11.297   c-1.747,4.313-2.62,8.816-2.62,13.507c0,4.804,0.872,9.278,2.62,13.425c1.745,4.15,4.175,7.805,7.286,10.969   c3.111,3.168,6.738,5.648,10.887,7.45c4.147,1.801,8.678,2.701,13.589,2.701c4.912,0,9.468-0.9,13.671-2.701   c4.2-1.801,7.884-4.282,11.051-7.45c3.165-3.165,5.648-6.876,7.449-11.133c1.801-4.257,2.701-8.785,2.701-13.589   c0-4.802-0.929-9.332-2.784-13.589C433.208,481.512,430.699,477.803,427.534,474.636z" style="fill:#231F20;"/></g>
                     </svg>
                     <p>Programmation Orientée Objet</p></div>
-                <div>
+                </a><a href="#home"><div class="flex flex-col items-center">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-20 w-20" viewBox="0 0 20 20" fill="currentColor">
                         <path d="M3 12v3c0 1.657 3.134 3 7 3s7-1.343 7-3v-3c0 1.657-3.134 3-7 3s-7-1.343-7-3z" />
                         <path d="M3 7v3c0 1.657 3.134 3 7 3s7-1.343 7-3V7c0 1.657-3.134 3-7 3S3 8.657 3 7z" />
@@ -21,7 +21,7 @@
                     </svg>
                     <p>Gestion de base de données</p>
                 </div>
-                <div>
+                </a><a href="#home"><div class="flex flex-col items-center">
                     <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="h-20 w-20" viewBox="0 0 97 97" enable-background="new 0 0 97 97" xml:space="preserve">
                         <g>
                         <path fill="#000" d="M92.71,44.408L52.591,4.291c-2.31-2.311-6.057-2.311-8.369,0l-8.33,8.332L46.459,23.19
@@ -34,15 +34,26 @@
                         </g>
                     </svg>
                     <p>Git</p>
-                </div>
+                </div></a>
             </div>
             <h3 class="font-black text-2xl mb-5">Compétences Humaines</h3>
-            <div class="grid grid-cols-3 ">
-                <div>Autonomie</div>
-                <div>Persévérance</div>
-                <div>Auto-critique</div>
-                <div>Adaptation</div>
-                <div>Polyvalent</div>
+            <div class="grid grid-cols-3 place-content-center">
+                <a href="#home"><div class="flex flex-col items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="h-20 w-20" viewBox="0 0 256 256" xml:space="preserve">
+                <g transform="translate(128 128) scale(0.72 0.72)" style="">
+                    <g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;" transform="translate(-175.05 -175.05000000000004) scale(3.89 3.89)" >
+                    <path d="M 51.118 86.005 c -0.086 0 -0.173 -0.011 -0.26 -0.034 l -3.018 -0.809 c -0.267 -0.071 -0.493 -0.25 -0.623 -0.494 c -0.13 -0.243 -0.154 -0.53 -0.065 -0.792 c 4.672 -13.85 10.796 -22.083 22.15 -28.983 c -8.041 2.683 -16.145 8.189 -19.843 17.37 c -0.158 0.392 -0.512 0.666 -0.97 0.625 c -0.423 -0.018 -0.79 -0.3 -0.915 -0.705 c -3.311 -10.738 -0.882 -19.006 7.643 -26.021 c 4.854 -3.809 10.649 -5.053 15.762 -6.15 c 6.054 -1.299 11.281 -2.421 13.609 -7.231 c 0.181 -0.373 0.578 -0.6 0.986 -0.561 c 0.412 0.035 0.761 0.321 0.877 0.719 c 3.929 13.596 6.634 26.781 -3.292 38.631 c -7.412 7.617 -16.797 9.57 -27.95 5.868 c -1.327 2.52 -2.353 5.092 -3.128 7.836 C 51.956 85.717 51.555 86.005 51.118 86.005 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                    <path d="M 38.882 86.005 c -0.437 0 -0.838 -0.288 -0.963 -0.729 c -0.774 -2.743 -1.801 -5.315 -3.128 -7.836 c -11.152 3.704 -20.536 1.75 -27.9 -5.814 C -3.086 59.72 -0.38 46.535 3.55 32.94 c 0.115 -0.398 0.464 -0.684 0.877 -0.719 c 0.409 -0.033 0.804 0.188 0.986 0.561 c 2.327 4.809 7.555 5.931 13.608 7.231 c 5.113 1.097 10.908 2.341 15.743 6.136 c 8.544 7.029 10.973 15.298 7.662 26.036 c -0.125 0.405 -0.491 0.687 -0.914 0.705 c -0.418 0.019 -0.812 -0.234 -0.97 -0.625 c -3.698 -9.181 -11.803 -14.688 -19.843 -17.37 c 11.354 6.9 17.477 15.133 22.151 28.983 c 0.088 0.262 0.064 0.548 -0.066 0.792 c -0.13 0.244 -0.356 0.423 -0.623 0.494 l -3.017 0.809 C 39.055 85.994 38.968 86.005 38.882 86.005 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                    <path d="M 63.357 31.594 C 60.748 16.357 48.946 9.886 36.038 4.083 c -0.379 -0.17 -0.821 -0.089 -1.116 0.203 c -0.294 0.292 -0.377 0.735 -0.21 1.115 c 2.16 4.887 -0.368 9.598 -3.295 15.054 c -2.472 4.608 -5.275 9.831 -5.512 15.996 c -0.005 0.368 0 0.731 0.005 1.095 c 3.781 1.073 7.754 2.652 11.324 5.453 c 0.592 0.487 1.156 0.982 1.699 1.482 c 0.008 -0.048 0.021 -0.095 0.021 -0.145 c 0.058 -4.206 1.011 -8.681 2.705 -12.924 c -0.929 5.788 -0.963 10.836 -0.144 15.736 c 1.246 1.429 2.311 2.907 3.187 4.44 c 1.774 -3.19 4.313 -6.153 7.653 -8.902 l 0.081 -0.065 c 3.46 -2.715 7.267 -4.299 10.917 -5.382 C 63.54 35.448 63.547 33.569 63.357 31.594 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                    </g>
+                </g>
+                </svg>
+                    <p>Autonomie</p>
+                </div>
+                </a><a href="#home"><div class="flex flex-col items-center">Persévérance</div>
+                </a><a href="#home"><div class="flex flex-col items-center">Auto-critique</div>
+                </a><a href="#home"><div class="flex flex-col items-center">Adaptation</div>
+                </a><a href="#home"><div class="flex flex-col items-center">Polyvalent</div></a>
             </div>
         </section>
     </div>
