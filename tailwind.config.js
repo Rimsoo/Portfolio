@@ -10,6 +10,7 @@ module.exports = {
                 'tour': "url('src/assets/tour.jpg')",
                 'moi': "url('src/assets/moi.jpg')",
                 'skill': "url('src/assets/skill.jpg')",
+                'career': "url('src/assets/career.jpg')",
             },
             colors: {
                 "cream": "#f0f7ee",

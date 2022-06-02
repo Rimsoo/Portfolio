@@ -51,8 +51,6 @@
                     <p>Autonomie</p>
                 </div>
                 </a><a href="#home"><div class="flex flex-col items-center">Persévérance</div>
-                </a><a href="#home"><div class="flex flex-col items-center">Auto-critique</div>
-                </a><a href="#home"><div class="flex flex-col items-center">Adaptation</div>
                 </a><a href="#home"><div class="flex flex-col items-center">Polyvalent</div></a>
             </div>
         </section>
