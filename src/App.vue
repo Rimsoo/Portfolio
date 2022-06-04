@@ -1,5 +1,6 @@
 <script setup>
-  import Menu from './components/Menu.vue'
+  import Menu from '@/components/Menu.vue'
+  import Page from '@/components/Page.vue'
 </script>
 
 <template>
@@ -13,7 +14,7 @@
 
   <main class="w-full h-screen flex">
     <Menu class="bg-menu w-20"/>
-    <router-view></router-view>
+    <Page />
   </main>
 
   <footer>
