@@ -8,7 +8,7 @@ export default defineConfig({
   plugins: [vue()],
   build: {
     outDir: './docs',
-    base: '',
+    base: '/Portfolio/',
   },
   resolve: {
     alias: {
