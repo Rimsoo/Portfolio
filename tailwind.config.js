@@ -11,6 +11,11 @@ module.exports = {
                 'moi': "url('src/assets/moi.jpg')",
                 'skill': "url('src/assets/skill.jpg')",
                 'career': "url('src/assets/career.jpg')",
+                'code': "url('src/assets/code.jpg')",
+                'clonewars': "url('src/assets/clonewars.webp')",
+                'mysql_to_postgresql': "url('src/assets/mysql_to_postgresql.png')",
+                'stargate': "url('src/assets/stargate.jpg')",
+                'contact': "url('src/assets/contact.jpg')",
             },
             colors: {
                 "cream": "#f0f7ee",
