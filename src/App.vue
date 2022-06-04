@@ -13,7 +13,7 @@
   </header> -->
 
   <main class="w-full h-screen flex">
-    <Menu class="bg-lavender w-20"/>
+    <Menu class="bg-menu w-20"/>
     <Pages />
   </main>
 

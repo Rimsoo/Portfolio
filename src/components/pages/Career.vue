@@ -7,12 +7,8 @@
             <h3 class="font-black text-2xl">Expérience</h3>
             <div class="place-content-center mt-5">
                 <div class="mb-5">
-                    <h4 class="font-black text-xl"><a href="#" target="_blank">Ingénieur outil logiciel
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline" viewBox="0 0 20 20" fill="currentColor">
-                        <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" />
-                        <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" />
-                        </svg>
-                    </a></h4>
+                    <h4 class="font-black text-xl">Ingénieur outil logiciel
+                        </h4>
                     <p class="text-gray-500">Septembre 2020 - Aujourd'hui | Valeo Siemens eAutomotive | Cergy</p>
                     <hr class="w-1/3">
                     <p class="mt-2">Au sein de l'équipe Methods and Tools, je suis en charge de:</p>
@@ -29,16 +25,12 @@
                     </ul>
                 </div>
             </div>
-            <hr class="mb-5">
+            <hr class="m-5">
             <h3 class="font-black text-2xl">Formation</h3>
             <div class="place-content-center mt-5">
                 <div class="mb-5">
-                    <h4 class="font-black text-xl"><a href="#" target="_blank">Master ingénierie logiciel 
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline" viewBox="0 0 20 20" fill="currentColor">
-                        <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" />
-                        <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" />
-                        </svg>
-                    </a></h4>
+                    <h4 class="font-black text-xl">Master ingénierie logiciel 
+                        </h4>
                     <p class="text-gray-500">Septembre 2020 - Juin 2022 | INTECH - École d'Ingénierie Informatique | Ivry-Sur-Seine</p>
                     <hr class="w-1/3">
                     <p class="mt-2">
@@ -47,12 +39,8 @@
                     </p>
                 </div>
                 <div class="mb-5">
-                    <h4 class="font-black text-xl"><a href="#" target="_blank">Licence informatique 
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline" viewBox="0 0 20 20" fill="currentColor">
-                        <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" />
-                        <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" />
-                        </svg>
-                    </a></h4>
+                    <h4 class="font-black text-xl">Licence informatique 
+                        </h4>
                     <p class="text-gray-500">Septembre 2017 - Juin 2020 | Université de Paris | Paris</p>
                     <hr class="w-1/3">
                     <p class="mt-2">
@@ -75,12 +63,8 @@
                     </ul>
                 </div>
                 <div class="mb-5">
-                    <h4 class="font-black text-xl"><a href="#" target="_blank">Baccalauréat scientifique 
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline" viewBox="0 0 20 20" fill="currentColor">
-                        <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" />
-                        <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" />
-                        </svg>
-                    </a></h4>
+                    <h4 class="font-black text-xl">Baccalauréat scientifique 
+                        </h4>
                     <p class="text-gray-500">Septembre 2016 - Juin 2017 | Ecole Internationale Algérienne en France | Paris</p>
                     <hr class="w-1/3">
                 </div>

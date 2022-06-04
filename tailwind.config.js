@@ -21,7 +21,9 @@ module.exports = {
                 "lightlavender" : "#a08695",
                 "noisette": "#DA6B34",
                 "jade" : "#00A771",
-                "nuit" : "#6983ea"
+                "nuit" : "#6983ea",
+                "menu" : "#424242",
+                "lightmenu" : "#6b6969"
             }
         },
         
