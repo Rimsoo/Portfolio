@@ -5,9 +5,13 @@
 		La POO est implémenté dans plusieurs langages très utilisés dans le monde professionnel (Java, C++, Python, PHP…). Ce concept optimise la structure d'un programme afin de le rendre plus logique, maintenable et modulable, tout en simplifiant la programmation.
 		<br> 
 		<br>
-		Mon dernier projet en la matière, d'avril à mai 2021, j'ai développé “Stargate” un outils d'import et d'exigence client depuis Polarion (application de gestion d'exigences) codé en Java, ce qui m'a permis de mettre en oeuvre mes connaissances sur la POO et notamment l'abstraction et les type génériques.
+		Mon dernier projet en la matière, d'avril à mai 2021, j'ai développé “<Link id="stargate" name="Stargate" @redirect="(val) => $emit('redirect', val)" />” un outils d'import et d'exigence client depuis Polarion (application de gestion d'exigences) codé en Java, ce qui m'a permis de mettre en oeuvre mes connaissances sur la POO et notamment l'abstraction et les type génériques.
 		<br>
 		<br>
 		J'ai été introduit à ce concept dès ma 2ème année d'études supérieures et je continue à en apprendre, car le concept évolue selon les langages qui l'implémentent.
 	</p>
 </template>
+
+<script setup>
+import Link from '@/components/Link.vue'
+</script>

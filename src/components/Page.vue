@@ -1,12 +1,3 @@
-<script setup>
-    import Home from '@/components/pages/Home.vue'
-    import About from '@/components/pages/About.vue'
-    import Career from '@/components/pages/Career.vue'
-    import Contact from '@/components/pages/Contact.vue'
-    import Projects from '@/components/pages/Projects.vue'
-    import Skills from '@/components/pages/Skills.vue'
-</script>
-
 <template>
     <div class="w-full h-screen overflow-y-hidden scroll-smooth">
         <section class="w-full h-screen" id="home">
@@ -19,13 +10,37 @@
             <Career />
         </section>
         <section class="w-full h-screen" id="skills">
-            <Skills />
+            <Skills @project="goToProject" ref="skills"/>
         </section>
         <section class="w-full h-screen" id="projects">
-            <Projects />
+            <Projects @skill="goToSkill" ref="projects"/>
         </section>
         <section class="w-full h-screen" id="contact">
             <Contact />
         </section>
     </div>
 </template>
+
+<script setup>
+    import { onMounted, ref, toRaw } from 'vue'
+    import Home from '@/components/pages/Home.vue'
+    import About from '@/components/pages/About.vue'
+    import Career from '@/components/pages/Career.vue'
+    import Contact from '@/components/pages/Contact.vue'
+    import Projects from '@/components/pages/Projects.vue'
+    import Skills from '@/components/pages/Skills.vue'
+
+    const projects = ref(null)
+    const skills = ref(null)
+
+    function goToProject(project) {
+        location.hash = '#projects'
+        projects.value.state.current = project
+    }
+
+    function goToSkill(skill) {
+        location.hash = '#skills'
+        skills.value.state.current = skill
+    }
+
+</script>

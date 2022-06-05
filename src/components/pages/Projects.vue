@@ -23,7 +23,7 @@
                                 </button>
                             </div>
                             <div class="px-8 pt-4 pb-8 max-h-[70vh] overflow-y-auto">
-                                <component :is="project.modal"></component>
+                                <component :is="project.modal" @redirect="(value) => {state.current = ''; $emit('skill', value)}"></component>
                             </div>
                         </div>
                     </div>
@@ -68,5 +68,7 @@ const projects = [
     }
 ]
 const state = reactive({ current: '', projects })
-
+defineExpose({
+  state
+})
 </script>

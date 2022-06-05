@@ -19,8 +19,12 @@
 			<li>Difficulté lors de la réalisation : ne connaissant pas le fonctionnement de Polarion, il me fallait un temps de documentation considérable afin de créer l'outil.</li>
 		</ul>
 		<br> 
-		Résultats : une première application bureau fonctionnelle, répondant aux demandes urgentes des clients, puis des versions ultérieures pour affiner les demandes.
+		Résultats : une première application bureau fonctionnelle en <Link id="oop" name="Java" @redirect="(val) => $emit('redirect', val)" />, répondant aux demandes urgentes des clients, puis des versions ultérieures pour affiner les demandes.
 		<br> 
 		Critique : L'application a été débuté par mon tuteur pour me faciliter la tâche et j'aurai surement du reprendre depuis le début pour une architecture plus solide permettant une meilleure maintenabilité
 	</p>
 </template>
+
+<script setup>
+import Link from '@/components/Link.vue'
+</script>

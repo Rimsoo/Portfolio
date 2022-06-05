@@ -8,7 +8,7 @@
                 <div class="grid grid-cols-3 ">
                     <div class="place-content-center" :key="j" v-for="(skill, j) in category.items">
                         <a :href="'#'+skill.id" @click.prevent="state.current=skill.id">
-                            <div class="flex flex-col items-center">
+                            <div class="flex flex-col items-center hover:bg-gray-200 transition duration-150 ease-out">
                                 <img :src="skill.image" :alt="skill.title" class="h-20 w-20">
                                 <p>{{ skill.title }}</p>
                             </div>
@@ -25,7 +25,7 @@
                                     </button>
                                 </div>
                                 <div class="px-8 pt-4 pb-8 max-h-[70vh] overflow-y-auto">
-                                    <component :is="skill.modal"></component>
+                                    <component :is="skill.modal" @redirect="(value) => {state.current = ''; $emit('project', value)}"></component>
                                 </div>
                             </div>
                         </div>
@@ -108,5 +108,7 @@ const skills = [
     }
 ]
 const state = reactive({ current: '', skills })
-
+defineExpose({
+  state
+})
 </script>
