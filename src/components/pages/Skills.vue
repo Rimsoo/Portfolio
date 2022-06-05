@@ -46,8 +46,18 @@ import perseverance from "@/assets/perseverance.svg";
 import polyvalent from "@/assets/polyvalent.svg";
 
 import Oop from "@/components/skills/Oop.vue";
+import Git from "@/components/skills/Git.vue";
+import Bdd from "@/components/skills/Bdd.vue";
+import Autonomy from "@/components/skills/Autonomy.vue";
+import Perseverance from "@/components/skills/Perseverance.vue";
+import Polyvalent from "@/components/skills/Polyvalent.vue";
 
 const OopRef = shallowRef(Oop)
+const GitRef = shallowRef(Git)
+const BddRef = shallowRef(Bdd)
+const AutonomyRef = shallowRef(Autonomy)
+const PerceveranceRef = shallowRef(Perseverance)
+const PolyvalentRef = shallowRef(Polyvalent)
 
 const skills = [
     {
@@ -63,11 +73,13 @@ const skills = [
                 id: 'bdd',
                 title: 'Gestion de base de données',
                 image: bdd,
+                modal: BddRef
             },
             {
                 id: 'git',
                 title: 'Git',
                 image: git,
+                modal: GitRef
             }
         ]
     },
@@ -78,16 +90,19 @@ const skills = [
                 id: 'autonomy',
                 title: 'Autonomie',
                 image: autonomy,
+                modal: AutonomyRef
             },
             {
                 id: 'perseverance',
                 title: 'Persévérance',
                 image: perseverance,
+                modal: PerceveranceRef
             },
             {
                 id: 'polyvalent',
                 title: 'Polyvalent',
                 image: polyvalent,
+                modal: PolyvalentRef
             },
         ]
     }

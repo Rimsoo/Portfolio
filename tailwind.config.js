@@ -6,16 +6,16 @@ module.exports = {
     theme: {
         extend: {
             backgroundImage: {
-                'axe': "url('src/assets/axe.jpg')",
-                'tour': "url('src/assets/tour.jpg')",
-                'moi': "url('src/assets/moi.jpg')",
-                'skill': "url('src/assets/skill.jpg')",
-                'career': "url('src/assets/career.jpg')",
-                'code': "url('src/assets/code.jpg')",
-                'clonewars': "url('src/assets/clonewars.webp')",
-                'mysql_to_postgresql': "url('src/assets/mysql_to_postgresql.png')",
-                'stargate': "url('src/assets/stargate.jpg')",
-                'contact': "url('src/assets/contact.jpg')",
+                'axe': "url('@/assets/axe.jpg')",
+                'tour': "url('@/assets/tour.jpg')",
+                'moi': "url('@/assets/moi.jpg')",
+                'skill': "url('@/assets/skill.jpg')",
+                'career': "url('@/assets/career.jpg')",
+                'code': "url('@/assets/code.jpg')",
+                'clonewars': "url('@/assets/clonewars.webp')",
+                'mysql_to_postgresql': "url('@/assets/mysql_to_postgresql.png')",
+                'stargate': "url('@/assets/stargate.jpg')",
+                'contact': "url('@/assets/contact.jpg')",
             },
             colors: {
                 "cream": "#f0f7ee",
@@ -30,8 +30,7 @@ module.exports = {
                 "menu" : "#424242",
                 "lightmenu" : "#6b6969"
             }
-        },
-        
+        }, 
     },
     plugins: [],
 }
