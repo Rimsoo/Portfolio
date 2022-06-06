@@ -3,7 +3,7 @@
 		Les équipes de mon entreprise (équipe software, hardware, validation…) ont demandé un moyen plus efficace pour importer des données sur Polarion (outil de gestion d'exigences client).
 		<br>
 		<br>
-		Ce projet a eu lieu lors de mon alternance chez Valeo qui utilise Polarion comme gestionnaire d'exigences et de traçabilités. Le souci étant que l'import de plusieurs exigences prenait du temps à faire au cas par cas, donc il y a la possibilité de créer un template et d'importer directement un ficher Excel, cependant il fallait demander cela à l'équipe informatique qui fournissait un template à usage unique après le traitement du ticket.
+		Ce projet a eu lieu lors de mon alternance chez Valeo qui utilise Polarion comme gestionnaire d'exigences et de traçabilités, pendant la période de télétravail dû au COVID-19 ce qui a necéssité d'être suffisamment <Link id="autonomy" name="autonome" @redirect="(val) => $emit('redirect', val)" />. Le souci étant que l'import de plusieurs exigences prenait du temps à faire au cas par cas, donc il y a la possibilité de créer un template et d'importer directement un ficher Excel, cependant il fallait demander cela à l'équipe informatique qui fournissait un template à usage unique après le traitement du ticket.
 		<br>
 		<br>
 		L'enjeu étant de fluidifier l'importation des exigences et accélérer leur traitement, et donc augmenter la productivité globale des équipes.

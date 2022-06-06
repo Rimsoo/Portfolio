@@ -1,9 +1,9 @@
 <template>
 	<p>
-		Les flux de données circulant sur le web sont principalement stockés dans des “bases de données” (BDD), et ces bases de données fonctionnent sur des serveurs. 
+		Les flux de données circulant sur le web sont principalement stockés dans des “<Link id="bdd" name="Bases De Données" @redirect="(val) => $emit('redirect', val)" />” (BDD), et ces bases de données fonctionnent sur des serveurs. 
 		<br>
 		<br>
-		Des serveurs de BDD il en existe plusieurs, et il n'est pas rare de devoir migrer nos BDD d'un serveur à l'autre, ce qui cause beaucoup de soucis de compatibilité, notamment la notion de ‘schema' sous Postgres inexistante sur MySQL.
+		Des serveurs de BDD il en existe plusieurs, et il n'est pas rare de devoir migrer nos BDD d'un serveur à l'autre, ce qui cause beaucoup de soucis de compatibilité, notamment la notion de 'schema' sous Postgres inexistante sur MySQL.
 		<br>
 		<br>
 		Dans le cadre de mon expérience chez Valeo Siemens eAutomotive j'ai été amené à migrer une BDD d'un serveur MySQL à PostgreSQL, cette migration s'est faite en plusieurs étapes : 
@@ -21,5 +21,11 @@
 		</ul>
 		<br>
 		Le but de cette migration était d'utiliser un serveur plus récent et sécurisé que la version MySQL de 2015 et être conforme aux exigences du service informatique.
+		<br>
+		Malgré la diférence de ce project par rapport aux projects de développement, ma <Link id="polyvalent" name="polyvalence" @redirect="(val) => $emit('redirect', val)" /> m'a permis de le réaliser sans trop de difficultés
 	</p>
 </template>
+
+<script setup>
+import Link from '@/components/Link.vue'
+</script>
