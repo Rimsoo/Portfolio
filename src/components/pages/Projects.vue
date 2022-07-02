@@ -16,7 +16,7 @@
                         <div class="relative max-w-screen-md z-10 bg-white rounded" >
                             <div class="flex items-center justify-between px-8 py-2 shadow">
                                 <h3 class="font-bold text-xl">{{ project.title }}</h3>
-                                <button class="p-2 hover:bg-red-200 transition duration-100 rounded" @click="state.current = ''">
+                                <button class="hover:bg-red-200 transition duration-100 rounded" @click="state.current = ''">
                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                         <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
                                     </svg>

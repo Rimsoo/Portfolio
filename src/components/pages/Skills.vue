@@ -18,7 +18,7 @@
                             <div class="relative max-w-screen-md z-10 bg-white rounded" >
                                 <div class="flex items-center justify-between px-8 py-2 shadow">
                                     <h3 class="font-bold text-xl">{{ skill.title }}</h3>
-                                    <button class="p-2 hover:bg-red-200 transition duration-100 rounded" @click="state.current = ''">
+                                    <button class="p hover:bg-red-200 transition duration-100 rounded" @click="state.current = ''">
                                         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                             <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
                                         </svg>
@@ -42,21 +42,21 @@ import oop from "@/assets/oop.svg";
 import bdd from "@/assets/bdd.svg";
 import git from "@/assets/git.svg";
 import autonomy from "@/assets/autonomy.svg";
-import perseverance from "@/assets/perseverance.svg";
+import curiosity from "@/assets/perseverance.svg";
 import polyvalent from "@/assets/polyvalent.svg";
 
 import Oop from "@/components/skills/Oop.vue";
 import Git from "@/components/skills/Git.vue";
 import Bdd from "@/components/skills/Bdd.vue";
 import Autonomy from "@/components/skills/Autonomy.vue";
-import Perseverance from "@/components/skills/Perseverance.vue";
+import Curiosity from "@/components/skills/Curiosity.vue";
 import Polyvalent from "@/components/skills/Polyvalent.vue";
 
 const OopRef = shallowRef(Oop)
 const GitRef = shallowRef(Git)
 const BddRef = shallowRef(Bdd)
 const AutonomyRef = shallowRef(Autonomy)
-const PerceveranceRef = shallowRef(Perseverance)
+const CuriosityRef = shallowRef(Curiosity)
 const PolyvalentRef = shallowRef(Polyvalent)
 
 const skills = [
@@ -77,7 +77,7 @@ const skills = [
             },
             {
                 id: 'git',
-                title: 'Git',
+                title: 'Gestion de configuration',
                 image: git,
                 modal: GitRef
             }
@@ -93,14 +93,14 @@ const skills = [
                 modal: AutonomyRef
             },
             {
-                id: 'perseverance',
-                title: 'Persévérance',
-                image: perseverance,
-                modal: PerceveranceRef
+                id: 'curiosity',
+                title: 'Curiosité',
+                image: curiosity,
+                modal: CuriosityRef
             },
             {
                 id: 'polyvalent',
-                title: 'Polyvalent',
+                title: 'Polyvalence',
                 image: polyvalent,
                 modal: PolyvalentRef
             },

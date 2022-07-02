@@ -7,7 +7,7 @@
         <div class="bg-axe bg-cover bg-center col-span-5 flex items-center justify-start">
             <div class="flex flex-col items-start font-bold text-2xl text-white">
                 <h2 class="bg-jade p-4">DEBECHE</h2>
-                <h2 class="bg-nuit p-4">Expert en Ingenieurie Logiciel</h2>
+                <h2 class="bg-nuit p-4">Expert en Ingénierie Logiciel</h2>
             </div>
         </div>
     </div>

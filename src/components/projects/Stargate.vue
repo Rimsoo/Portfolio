@@ -1,9 +1,14 @@
 <template>
 	<p>
 		Les équipes de mon entreprise (équipe software, hardware, validation…) ont demandé un moyen plus efficace pour importer des données sur Polarion (outil de gestion d'exigences client).
+		<br>La demande a été faite pendant la période de télétravail à 100% dû au COVID-19 ce qui a necéssité d'être suffisamment <Link id="autonomy" name="autonome" @redirect="(val) => $emit('redirect', val)" />
 		<br>
 		<br>
-		Ce projet a eu lieu lors de mon alternance chez Valeo qui utilise Polarion comme gestionnaire d'exigences et de traçabilités, pendant la période de télétravail dû au COVID-19 ce qui a necéssité d'être suffisamment <Link id="autonomy" name="autonome" @redirect="(val) => $emit('redirect', val)" />. Le souci étant que l'import de plusieurs exigences prenait du temps à faire au cas par cas, donc il y a la possibilité de créer un template et d'importer directement un ficher Excel, cependant il fallait demander cela à l'équipe informatique qui fournissait un template à usage unique après le traitement du ticket.
+		Ce projet a eu lieu lors de mon alternance chez Valeo qui utilise Polarion comme gestionnaire d'exigences et de traçabilités. 
+		Les exigences sont souvent reçu sous format Excel. Le souci étant que l'import de centaines exigences dans Polarion prend du temps à faire au cas par cas, 
+		il nous fallait donc un moyen d'automatiser l'import des données avec des spécification précises.
+		Stargate a été développé dans ce but précis, un outils permettant de créer un mappage de données enter un fichier Excel et Polarion afin d'y importer 
+		automatiquement son contenu.
 		<br>
 		<br>
 		L'enjeu étant de fluidifier l'importation des exigences et accélérer leur traitement, et donc augmenter la productivité globale des équipes.

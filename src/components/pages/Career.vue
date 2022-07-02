@@ -20,7 +20,7 @@
                             La réalisation et la qualification de ces passerelles logicielles 
                         </li>
                         <li>
-                            L'accompagnement des équipes de développement dans la prise en main de ces nouveaux outils, en assurant la conformité des méthodologies mises en place, pour satisfaire aux exigences des nouveaux standards ( A-SPICE ).
+                            L'accompagnement des équipes de développement dans la prise en main de ces nouveaux outils, en assurant la conformité des méthodologies mises en place, pour satisfaire aux exigences des nouveaux standards.
                         </li>
                     </ul>
                 </div>
