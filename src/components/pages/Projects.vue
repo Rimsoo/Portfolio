@@ -9,6 +9,7 @@
                         <div class="flex flex-col items-center hover:bg-gray-200 transition duration-150 ease-out">
                             <img :src="project.image" :alt="project.title" class="h-20 w-60 object-contain">
                             <p>{{ project.title }}</p>
+                            <p class="text-gray-500">{{ project.desc }}</p>
                         </div>
                     </a>
                     <div class="w-screen h-screen fixed inset-0 flex items-center justify-center" v-if="state.current === project.id">
@@ -37,34 +38,37 @@
 import { shallowRef, reactive } from 'vue'
 import stargate from "@/assets/stargate.jpg";
 import mysql_to_postgresql from "@/assets/mysql_to_postgresql.png";
-import clonewars from "@/assets/clonewars.webp";
+import teeworlds from "@/assets/teeworlds.jpg";
 
 import Mysql_to_postgresql from "@/components/projects/Mysql_to_postgresql.vue";
 import Stargate from "@/components/projects/Stargate.vue";
-import Clonewars from "@/components/projects/Clonewars.vue";
+import Teeworlds from "@/components/projects/Teeworlds.vue";
 
 const Mysql_to_postgresqlRef = shallowRef(Mysql_to_postgresql)
 const StargateRef = shallowRef(Stargate)
-const ClonewarsRef = shallowRef(Clonewars)
+const TeeworldsRef = shallowRef(Teeworlds)
 
 const projects = [
     {
         id: 'stargate',
         title: 'Stargate',
+        desc: 'Polarion Import / Export',
         image: stargate,
         modal: StargateRef
     },
     {
         id: 'mysql_to_postgresql',
-        title: 'Migration MySQL vers PostgreSQL',
+        title: 'Migration base de données',
+        desc: 'Migration MySQL vers PostgreSQL',
         image: mysql_to_postgresql,
         modal: Mysql_to_postgresqlRef
     },
     {
-        id: 'clonewars',
-        title: 'CloneWars',
-        image: clonewars,
-        modal: ClonewarsRef
+        id: 'teeworlds',
+        title: 'Serveur Teeworlds',
+        desc: 'Serveur de jeu multi-joueur',
+        image: teeworlds,
+        modal: TeeworldsRef
     }
 ]
 const state = reactive({ current: '', projects })
