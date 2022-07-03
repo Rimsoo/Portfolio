@@ -55,7 +55,7 @@ const projects = [
         modal: StargateRef
     },
     {
-        id: 'Mysql_to_postgresql',
+        id: 'mysql_to_postgresql',
         title: 'Migration MySQL vers PostgreSQL',
         image: mysql_to_postgresql,
         modal: Mysql_to_postgresqlRef

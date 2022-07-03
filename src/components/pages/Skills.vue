@@ -40,24 +40,24 @@
 import { shallowRef, reactive } from 'vue'
 import oop from "@/assets/oop.svg";
 import bdd from "@/assets/bdd.svg";
-import git from "@/assets/git.svg";
+import vue from "@/assets/vue.svg";
 import autonomy from "@/assets/autonomy.svg";
 import curiosity from "@/assets/perseverance.svg";
 import polyvalent from "@/assets/polyvalent.svg";
 
 import Oop from "@/components/skills/Oop.vue";
-import Git from "@/components/skills/Git.vue";
-import Bdd from "@/components/skills/Bdd.vue";
+import Vue from "@/components/skills/Vue.vue";
+import Sql from "@/components/skills/Sql.vue";
 import Autonomy from "@/components/skills/Autonomy.vue";
 import Curiosity from "@/components/skills/Curiosity.vue";
-import Polyvalent from "@/components/skills/Polyvalent.vue";
+import Adaptation from "@/components/skills/Adaptation.vue";
 
 const OopRef = shallowRef(Oop)
-const GitRef = shallowRef(Git)
-const BddRef = shallowRef(Bdd)
+const VueRef = shallowRef(Vue)
+const SqlRef = shallowRef(Sql)
 const AutonomyRef = shallowRef(Autonomy)
 const CuriosityRef = shallowRef(Curiosity)
-const PolyvalentRef = shallowRef(Polyvalent)
+const AdaptationRef = shallowRef(Adaptation)
 
 const skills = [
     {
@@ -70,16 +70,16 @@ const skills = [
                 modal: OopRef
             },
             {
-                id: 'bdd',
-                title: 'Gestion de base de données',
+                id: 'sql',
+                title: 'SQL',
                 image: bdd,
-                modal: BddRef
+                modal: SqlRef
             },
             {
-                id: 'git',
-                title: 'Gestion de configuration',
-                image: git,
-                modal: GitRef
+                id: 'vue',
+                title: 'Vue JS',
+                image: vue,
+                modal: VueRef
             }
         ]
     },
@@ -99,10 +99,10 @@ const skills = [
                 modal: CuriosityRef
             },
             {
-                id: 'polyvalent',
-                title: 'Polyvalence',
+                id: 'adaptation',
+                title: 'Adaptation',
                 image: polyvalent,
-                modal: PolyvalentRef
+                modal: AdaptationRef
             },
         ]
     }
