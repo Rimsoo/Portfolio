@@ -35,7 +35,7 @@
                         <p class="text-gray-500">Septembre 2020 - Juin 2022 | INTECH - École d'Ingénierie Informatique | Ivry-Sur-Seine</p>
                         <hr class="w-1/3">
                         <p class="mt-2">
-                            Le master est consacrée à la consolidation des compétences propres à la filière métier : <br>
+                            Le master est consacré à la consolidation des compétences propres à la filière métier : <br>
                             Expert en Ingénierie du Logiciel "IL". L’accent est mis sur les compétences techniques et méthodologiques de cœur de métier.
                         </p>
                     </div>
@@ -46,7 +46,7 @@
                         <p class="text-gray-500">Septembre 2017 - Juin 2020 | Université de Paris | Paris</p>
                         <hr class="w-1/3">
                         <p class="mt-2">
-                            Les enseignements comportent des cours des travaux dirigés, des travaux pratiques et des projets.<br>
+                            Les enseignements comportent des cours, des travaux dirigés, des travaux pratiques et des projets.<br>
                             Compétences pré-professionnelles acquises :
                         </p>
                         <ul class="list-disc ml-10 mt-2">
@@ -68,7 +68,7 @@
                 <div class="mb-5">
                     <li class="font-black text-xl ml-4">Baccalauréat scientifique</li>
                     <div class="border-l border-black pl-2">
-                        <p class="text-gray-500">Septembre 2016 - Juin 2017 | Ecole Internationale Algérienne en France | Paris</p>
+                        <p class="text-gray-500">Septembre 2016 - Juin 2017 | École Internationale Algérienne en France | Paris</p>
                         <hr class="w-1/3">
                     </div>
                 </div>

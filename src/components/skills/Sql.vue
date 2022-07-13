@@ -10,7 +10,7 @@
 		<li>La mise à jour.</li>
 		<li>L’ajout d’enregistrements sous forme de lignes.</li>
 		<li>
-		Le changement de structure de la table: ajout, suppression de colonnes.
+		Le changement de structure de la table : ajout, suppression de colonnes.
 		</li>
 	</ul>
 	<br>
@@ -28,7 +28,7 @@
   <br>
   <p>
     J’ai encore quelques lacunes sur les aspects d’optimisation de performances
-    que je compte combler car la gestion de données est un domaine qui
+    que je compte combler, car la gestion de données est un domaine qui
     m’intéresse.
   </p>
 </template>

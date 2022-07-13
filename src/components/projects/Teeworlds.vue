@@ -6,20 +6,20 @@
 		C'est un jeu libre en développement, dans un état suffisamment avancé pour pouvoir y jouer, et y apporter ses propres modifications, autant côté client que serveur.
 		<br>
 		<br>
-		Le jeu étant libre, la communauté a créé plusieurs mode de jeu, et un de ses mode m'interessait particulièrement, DDRace :
+		Le jeu étant libre, la communauté a créé plusieurs modes de jeu, et un de ces modes m'intéressait particulièrement, DDRace : 
 		vous devez achever un parcours en un minimum de temps, mais la collaboration avec d'autres joueurs est indispensable pour la finir.
 		<br>
-		Cependant je trouvais interessant d'ajouter une fonctionalité (administrable) pour proposer au joueur des sauvetages dans certains cas, et pourquoi pas corriger certains bugs.
+		Cependant, je trouvais intéressant d'ajouter une fonctionnalité (administrable) pour proposer au joueur des sauvetages dans certains cas, et pourquoi pas corriger certains bugs.
 		<br>
 		<br>
-		<Link id="curiosity" name="Curieux" @redirect="(val) => $emit('redirect', val)" />, j'ai donc récupéré le code source de ce mode qui est en C++, et ajouté une fonctionalité :
-		permettre aux joueurs de réaparaitre au dernier endroit où ils se trouvaient avant de mourir.
+		<Link id="curiosity" name="Curieux" @redirect="(val) => $emit('redirect', val)" />, j'ai donc récupéré le code source de ce mode qui est en C++, et ajouté une fonctionnalité : 
+		permettre aux joueurs de réapparaître au dernier endroit où ils se trouvaient avant de mourir.
 		<br>
-		J'ai également corriger les bugs connu à ce moment là.
+		J'ai également corrigé les bugs connus à ce moment-là.
 		<br>
 		<br>
-		Possedant un Raspberry Pi (un micro ordinateur), j'ai décidé d'héberger le mode de jeu modifié dessus en juillet 2020.
-		Et depuis, le serveur est accessible au joueurs du monde entier.
+		Possédant un Raspberry Pi (un micro ordinateur), j'ai décidé d'héberger le mode de jeu modifié dessus en juillet 2020. 
+		Et depuis, le serveur est accessible aux joueurs du monde entier.
 	</p>
 </template>
 

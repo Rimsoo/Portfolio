@@ -3,7 +3,7 @@
 		Lors de cursus à INTECH, j’ai découvert une nouvelle technologie web, Vue.js. Vue est un Framework Web gratuit et open source qui permet aux développeurs de créer des applications Web en utilisant JavaScript ou TypeScript.
 		<br>
 		<br>
-		Vue nous vient accompagné d'une bibliothèque et d'outils de base très légers et flexibles, permettant un développement front rapide. Son intégration et son approche sont très simples, permettant aux développeurs JavaScript et Typescript, qui ne seront pas dépaysés, de ne pas avoir à développer leur application à partir de zéro.
+		Vue nous vient accompagné d'une bibliothèque et d'outils de base légers et flexibles, permettant un développement front rapide. Son intégration et son approche sont très simples, permettant aux développeurs JavaScript et TypeScript, qui ne seront pas dépaysés, de ne pas avoir à développer leur application à partir de zéro.
 		<br>
 		<br>
 		Aucune technologie ne nous vient sans son lot d'inconvénients. Vue possède un manque d'évolutivité, lui permettant principalement de créer des applications à page unique et des interfaces utilisateurs.
