@@ -3,14 +3,14 @@
         <div class="bg-career bg-cover bg-center col-span-2 flex flex-col items-end justify-center font-bold text-2xl text-white"></div>
         <section class="col-span-5 p-10 overflow-y-scroll">
             <h2 class="font-black text-3xl mb-5">MON PARCOURS</h2><hr class="mb-5">
-            
             <h3 class="font-black text-2xl">Expérience</h3>
-            <div class="place-content-center mt-5">
-                <div class="mb-5">
-                    <li class="font-black text-xl ml-4">Ingénieur outil logiciel</li>
-                    <div class="border-l border-black pl-2">
-                        <p class="text-gray-500">Septembre 2020 - Aujourd'hui | Valeo Siemens eAutomotive | Cergy</p>
-                        <hr class="w-1/3">
+             <section class="timeline">
+                <ul>
+                <li class="li">
+                    <span></span>
+                    <div class="font-black text-xl">Ingénieur outil logiciel en alternance</div>
+                    <div class="sub">Valeo Siemens eAutomotive</div>
+                    <div>
                         <p class="mt-2">Au sein de l'équipe Methods and Tools, je suis en charge de:</p>
                         <ul class="list-disc ml-10 mt-2">
                             <li>
@@ -22,29 +22,39 @@
                             <li>
                                 L'accompagnement des équipes de développement dans la prise en main de ces nouveaux outils, en assurant la conformité des méthodologies mises en place, pour satisfaire aux exigences des nouveaux standards.
                             </li>
-                        </ul>
+                        </ul>    
                     </div>
-                </div>
-            </div>
+                    <div class="year">
+                    <span>2022</span>
+                    <span>2020</span>
+                    </div>
+                </li>
+                </ul>
+            </section>
             <hr class="m-5">
             <h3 class="font-black text-2xl">Formation</h3>
-            <div class="place-content-center mt-5">
-                <div class="mb-5">
-                    <li class="font-black text-xl ml-4">Master ingénierie logiciel</li>
-                    <div class="border-l border-black pl-2">
-                        <p class="text-gray-500">Septembre 2020 - Juin 2022 | INTECH - École d'Ingénierie Informatique | Ivry-Sur-Seine</p>
-                        <hr class="w-1/3">
+            <section class="timeline">
+                <ul>
+                <li class="li">
+                    <span></span>
+                    <div class="font-black text-xl">Master ingénierie logiciel</div>
+                    <div class="sub">INTECH - École d'Ingénierie Informatique</div>
+                    <div>
                         <p class="mt-2">
                             Le master est consacré à la consolidation des compétences propres à la filière métier : <br>
                             Expert en Ingénierie du Logiciel "IL". L’accent est mis sur les compétences techniques et méthodologiques de cœur de métier.
                         </p>
                     </div>
-                </div>
-                <div class="mb-5">
-                    <li class="font-black text-xl ml-4">Licence informatique</li>
-                    <div class="border-l border-black pl-2">
-                        <p class="text-gray-500">Septembre 2017 - Juin 2020 | Université de Paris | Paris</p>
-                        <hr class="w-1/3">
+                    <div class="year">
+                    <span>2022</span>
+                    <span>2020</span>
+                    </div>
+                </li>
+                <li class="li">
+                    <span></span>
+                    <div class="font-black text-xl">Licence informatique</div>
+                    <div class="sub">Université de Paris</div>
+                    <div>
                         <p class="mt-2">
                             Les enseignements comportent des cours, des travaux dirigés, des travaux pratiques et des projets.<br>
                             Compétences pré-professionnelles acquises :
@@ -64,15 +74,22 @@
                             </li>
                         </ul>
                     </div>
-                </div>
-                <div class="mb-5">
-                    <li class="font-black text-xl ml-4">Baccalauréat scientifique</li>
-                    <div class="border-l border-black pl-2">
-                        <p class="text-gray-500">Septembre 2016 - Juin 2017 | École Internationale Algérienne en France | Paris</p>
-                        <hr class="w-1/3">
+                    <div class="year">
+                    <span>2020</span>
+                    <span>2017</span>
                     </div>
-                </div>
-            </div>
+                </li>                
+                <li class="li">
+                    <span></span>
+                    <div class="font-black text-xl">Baccalauréat scientifique</div>
+                    <div class="sub">École Internationale Algérienne en France</div>
+                    <div class="year">
+                    <span>2017</span>
+                    <span>2016</span>
+                    </div>
+                </li>
+                </ul>
+            </section>
         </section>
     </div>
 </template>
