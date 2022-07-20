@@ -1,0 +1,3 @@
+[submodule "rimsoo.github.io"]
+	path = docs
+	url = https://github.com/Rimsoo/rimsoo.github.io.git
